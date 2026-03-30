@@ -66,16 +66,17 @@ docker run -i ghcr.io/frootai/frootai-mcp
 
 ## What Ships Inside
 
-| Component | What | Install |
-|-----------|------|---------|
-| 🔌 **MCP Server** | 23 tools for any AI agent | `npx frootai-mcp` |
-| 💻 **VS Code Extension** | Browse plays, search terms, scaffold projects | `pavleenbali.frootai` |
-| 🐍 **Python SDK** | Offline knowledge, cost estimation, evaluation | `pip install frootai` |
-| 🐳 **Docker Image** | Zero-install MCP server | `ghcr.io/frootai/frootai-mcp` |
-| ⌨️ **CLI** | Init, search, cost, validate, doctor | `npx frootai <command>` |
-| 🌐 **REST API** | Chat, search, cost endpoints | [api-docs](https://frootai.dev/api-docs) |
-| 🎯 **20 Solution Plays** | Pre-tuned AI solutions with full Agentic OS | [Browse plays](https://frootai.dev/solution-plays) |
-| 📖 **16 Knowledge Modules** | End-to-end AI architecture curriculum | [Read docs](https://frootai.dev/docs) |
+| Component | What | Install | Links |
+|-----------|------|---------|-------|
+| 🔌 **MCP Server** | 23 tools for any AI agent | `npx frootai-mcp` | [Website](https://frootai.dev/mcp-tooling) · [npm](https://www.npmjs.com/package/frootai-mcp) |
+| 💻 **VS Code Extension** | Browse plays, search terms, scaffold projects | `pavleenbali.frootai` | [Website](https://frootai.dev/vscode-extension) · [Marketplace](https://marketplace.visualstudio.com/items?itemName=pavleenbali.frootai) |
+| 🐍 **Python SDK** | Offline knowledge, cost estimation, evaluation | `pip install frootai` | [PyPI](https://pypi.org/project/frootai/) |
+| 🐍 **Python MCP** | Same 23 tools, pure Python | `pip install frootai-mcp` | [PyPI](https://pypi.org/project/frootai-mcp/) |
+| 🐳 **Docker Image** | Zero-install MCP server | `ghcr.io/frootai/frootai-mcp` | [Website](https://frootai.dev/docker) · [GHCR](https://github.com/frootai/frootai/pkgs/container/frootai-mcp) |
+| ⌨️ **CLI** | Init, search, cost, validate, doctor | `npx frootai <command>` | [Website](https://frootai.dev/cli) |
+| 🌐 **REST API** | Chat, search, cost endpoints | — | [API Docs](https://frootai.dev/api-docs) |
+| 🎯 **20 Solution Plays** | Pre-tuned AI solutions with full Agentic OS | — | [Browse Plays](https://frootai.dev/solution-plays) |
+| 📖 **16 Knowledge Modules** | End-to-end AI architecture curriculum | — | [Read Docs](https://frootai.dev/docs) |
 
 ---
 
