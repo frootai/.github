@@ -23,6 +23,10 @@
 
 We provide the architecture knowledge, production tooling, and deployable solutions that bridge the gap between AI infrastructure and AI applications.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/frootai/frootai/main/.github/fai-eco.png" width="600" alt="FAI Ecosystem">
+</p>
+
 ---
 
 ### Get Started
@@ -50,14 +54,6 @@ docker run -i ghcr.io/frootai/frootai-mcp        # Docker
 |  | **Knowledge** | 16 FROOT modules |  | [Docs](https://frootai.dev/docs) |
 
 ---
-
-### The FAI Ecosystem
-
-```
- FAI Factory      The engine that builds everything
- FAI Packages     6 channels: VS Code  npm  PyPI  Docker  CLI  GitHub
- FAI Toolkit      What ships inside: DevKit  TuneKit  SpecKit
-```
 
 ---
 
