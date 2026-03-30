@@ -1,106 +1,100 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://frootai.dev/img/frootai-og.png">
-  <img alt="FrootAI" src="https://frootai.dev/img/frootai-og.png" width="100%">
-</picture>
-
-<h1 align="center">FrootAI — From the Roots to the Fruits</h1>
-
 <p align="center">
-  <strong>The open AI architecture ecosystem for Infrastructure, Platform & Application teams.</strong>
+  <img src="https://raw.githubusercontent.com/frootai/frootai/main/.github/frootai-mark.png" width="120" alt="FrootAI">
 </p>
 
+<h1 align="center">FrootAI</h1>
+<p align="center"><strong>From the Roots to the Fruits</strong></p>
+<p align="center"><em>Open AI architecture ecosystem for Infra, Platform & App teams.</em></p>
+
 <p align="center">
-  <a href="https://frootai.dev"><img src="https://img.shields.io/badge/Website-frootai.dev-10b981?style=for-the-badge&logo=cloudflare" alt="Website"></a>
-  <a href="https://github.com/frootai/frootai"><img src="https://img.shields.io/github/stars/frootai/frootai?style=for-the-badge&logo=github" alt="Stars"></a>
-  <a href="https://www.npmjs.com/package/frootai-mcp"><img src="https://img.shields.io/npm/dw/frootai-mcp?style=for-the-badge&logo=npm&label=npm" alt="npm"></a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=pavleenbali.frootai"><img src="https://img.shields.io/visual-studio-marketplace/i/pavleenbali.frootai?style=for-the-badge&logo=visualstudiocode&label=VS%20Code" alt="VS Code"></a>
-  <a href="https://pypi.org/project/frootai/"><img src="https://img.shields.io/pypi/dm/frootai?style=for-the-badge&logo=python&label=PyPI" alt="PyPI"></a>
+  <a href="https://frootai.dev"><img src="https://img.shields.io/badge/frootai.dev-10b981?style=flat-square&logo=cloudflare&logoColor=white" alt="Website"></a>
+  <a href="https://github.com/frootai/frootai"><img src="https://img.shields.io/github/stars/frootai/frootai?style=flat-square&logo=github" alt="Stars"></a>
+  <a href="https://www.npmjs.com/package/frootai-mcp"><img src="https://img.shields.io/npm/dw/frootai-mcp?style=flat-square&logo=npm&label=npm" alt="npm"></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=pavleenbali.frootai"><img src="https://img.shields.io/visual-studio-marketplace/i/pavleenbali.frootai?style=flat-square&logo=visualstudiocode&label=VS%20Code" alt="VS Code"></a>
+  <a href="https://pypi.org/project/frootai/"><img src="https://img.shields.io/pypi/dm/frootai?style=flat-square&logo=python&label=PyPI" alt="PyPI"></a>
+  <a href="https://github.com/frootai/frootai/blob/main/LICENSE"><img src="https://img.shields.io/badge/MIT-yellow?style=flat-square&label=License" alt="License"></a>
 </p>
 
 ---
 
-## What is FrootAI?
+### What is FrootAI?
 
-**FrootAI** is an open ecosystem where **Infra**, **Platform**, and **App** teams build AI — *Frootfully*.
-
-> **FROOT** = **F**oundations · **R**easoning · **O**rchestration · **O**perations · **T**ransformation
+**FROOT** = **F**oundations  **R**easoning  **O**rchestration  **O**perations  **T**ransformation
 
 We provide the architecture knowledge, production tooling, and deployable solutions that bridge the gap between AI infrastructure and AI applications.
 
-### The FAI Ecosystem
+---
 
-| Layer | What | Description |
-|:-----:|------|-------------|
-| 🏭 | **FAI Factory** | The production engine — assembles knowledge, agents & skills into deployable form |
-| 📦 | **FAI Packages** | Distribution channels — VS Code, npm, PyPI, Docker, CLI, GitHub |
-| 🔧 | **FAI Toolkit** | What ships inside — DevKit, TuneKit, SpecKit for every solution play |
+### Get Started
+
+```bash
+npx frootai-mcp@latest                          # MCP Server
+code --install-extension pavleenbali.frootai     # VS Code Extension
+pip install frootai                              # Python SDK
+docker run -i ghcr.io/frootai/frootai-mcp        # Docker
+```
 
 ---
 
-## Repositories
+### What Ships Inside
+
+| | Component | What | Install | Links |
+|:--:|-----------|------|---------|-------|
+|  | **MCP Server** | 23 tools for any AI agent | `npx frootai-mcp` | [Website](https://frootai.dev/mcp-tooling)  [npm](https://www.npmjs.com/package/frootai-mcp) |
+|  | **VS Code** | Browse plays, scaffold projects | `pavleenbali.frootai` | [Website](https://frootai.dev/vscode-extension)  [Marketplace](https://marketplace.visualstudio.com/items?itemName=pavleenbali.frootai) |
+|  | **Python SDK** | Offline knowledge, evaluation | `pip install frootai` | [PyPI](https://pypi.org/project/frootai/) |
+|  | **Python MCP** | 23 tools, pure Python | `pip install frootai-mcp` | [PyPI](https://pypi.org/project/frootai-mcp/) |
+|  | **Docker** | Zero-install MCP server | `ghcr.io/frootai/frootai-mcp` | [Website](https://frootai.dev/docker)  [GHCR](https://github.com/frootai/frootai/pkgs/container/frootai-mcp) |
+|  | **CLI** | Init, search, cost, validate | `npx frootai` | [Website](https://frootai.dev/cli) |
+|  | **Solution Plays** | 20 pre-tuned AI solutions |  | [Browse](https://frootai.dev/solution-plays) |
+|  | **Knowledge** | 16 FROOT modules |  | [Docs](https://frootai.dev/docs) |
+
+---
+
+### The FAI Ecosystem
+
+```
+ FAI Factory      The engine that builds everything
+ FAI Packages     6 channels: VS Code  npm  PyPI  Docker  CLI  GitHub
+ FAI Toolkit      What ships inside: DevKit  TuneKit  SpecKit
+```
+
+---
+
+### Repositories
 
 | Repo | Description |
 |------|-------------|
-| **[frootai](https://github.com/frootai/frootai)** | Main toolkit — 23 MCP tools, 20 solution plays, 16 knowledge modules, VS Code extension, Python SDK, CLI, REST API |
-| **[frootai.dev](https://frootai.dev)** | Official website — ecosystem overview, docs, configurator, Agent FAI chatbot |
+| [**frootai**](https://github.com/frootai/frootai) | Main toolkit  MCP, VS Code, Python, CLI, 20 plays, 16 modules |
+| [**frootai.dev**](https://frootai.dev) | Official website |
 
 ---
 
-## Get Started in 30 Seconds
+<details>
+<summary><strong>The FROOT Framework</strong></summary>
+<br>
 
-```bash
-# Add to any AI agent (Claude, Copilot, Cursor, Windsurf)
-npx frootai-mcp@latest
-
-# Or install the VS Code extension
-code --install-extension pavleenbali.frootai
-
-# Or use Python
-pip install frootai
-
-# Or use Docker
-docker run -i ghcr.io/frootai/frootai-mcp
+```mermaid
+graph LR
+  F[" Foundations"] --> R[" Reasoning"] --> O1[" Orchestration"] --> O2[" Operations"] --> T[" Transformation"]
 ```
 
----
+| Layer | What You Learn |
+|:-----:|---------------|
+|  F | Tokens, models, glossary, Agentic OS |
+|  R | Prompts, RAG, grounding, deterministic AI |
+|  O | Semantic Kernel, agents, MCP, tools |
+|  O | Azure AI Foundry, GPU infra, Copilot ecosystem |
+|  T | Fine-tuning, responsible AI, production patterns |
 
-## What Ships Inside
-
-| Component | What | Install | Links |
-|-----------|------|---------|-------|
-| 🔌 **MCP Server** | 23 tools for any AI agent | `npx frootai-mcp` | [Website](https://frootai.dev/mcp-tooling) · [npm](https://www.npmjs.com/package/frootai-mcp) |
-| 💻 **VS Code Extension** | Browse plays, search terms, scaffold projects | `pavleenbali.frootai` | [Website](https://frootai.dev/vscode-extension) · [Marketplace](https://marketplace.visualstudio.com/items?itemName=pavleenbali.frootai) |
-| 🐍 **Python SDK** | Offline knowledge, cost estimation, evaluation | `pip install frootai` | [PyPI](https://pypi.org/project/frootai/) |
-| 🐍 **Python MCP** | Same 23 tools, pure Python | `pip install frootai-mcp` | [PyPI](https://pypi.org/project/frootai-mcp/) |
-| 🐳 **Docker Image** | Zero-install MCP server | `ghcr.io/frootai/frootai-mcp` | [Website](https://frootai.dev/docker) · [GHCR](https://github.com/frootai/frootai/pkgs/container/frootai-mcp) |
-| ⌨️ **CLI** | Init, search, cost, validate, doctor | `npx frootai <command>` | [Website](https://frootai.dev/cli) |
-| 🌐 **REST API** | Chat, search, cost endpoints | — | [API Docs](https://frootai.dev/api-docs) |
-| 🎯 **20 Solution Plays** | Pre-tuned AI solutions with full Agentic OS | — | [Browse Plays](https://frootai.dev/solution-plays) |
-| 📖 **16 Knowledge Modules** | End-to-end AI architecture curriculum | — | [Read Docs](https://frootai.dev/docs) |
+</details>
 
 ---
 
-## The FROOT Framework
-
-```
-🌱 F — Foundations      → Tokens, models, glossary, Agentic OS
-🪵 R — Reasoning        → Prompts, RAG, grounding, deterministic AI
-🌿 O — Orchestration    → Semantic Kernel, agents, MCP, tools
-🍃 O — Operations       → Azure AI Foundry, GPU infra, Copilot ecosystem
-🍎 T — Transformation   → Fine-tuning, responsible AI, production patterns
-```
-
----
-
-## Community
-
-- 🌐 **Website**: [frootai.dev](https://frootai.dev)
-- 💬 **Agent FAI**: [frootai.dev/chatbot](https://frootai.dev/chatbot) — ask anything about AI architecture
-- 📖 **Docs**: [frootai.dev/docs](https://frootai.dev/docs) — 16 knowledge modules
-- 🎓 **Learning Hub**: [frootai.dev/learning-hub](https://frootai.dev/learning-hub) — workshops & certifications
-- 🐛 **Issues**: [github.com/frootai/frootai/issues](https://github.com/frootai/frootai/issues)
-
----
-
-<p align="center"><em>It's simply Frootful.</em> 🌳</p>
-<p align="center">MIT License · © 2026 FrootAI Contributors</p>
+<p align="center">
+  <a href="https://frootai.dev">Website</a>  
+  <a href="https://frootai.dev/chatbot">Agent FAI</a>  
+  <a href="https://frootai.dev/docs">Docs</a>  
+  <a href="https://github.com/frootai/frootai/issues">Issues</a>
+</p>
+<p align="center"><em>It's simply Frootful.</em> </p>
